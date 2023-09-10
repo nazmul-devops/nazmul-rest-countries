@@ -13,8 +13,7 @@ const Country = ({country, handleVisitedCountry}) => {
     return (
         <div className={`country ${visited && 'visited'}`}>
             <h2>Name: {name?.common}</h2>
-            <h3>Official Name: {name?.official}</h3>
-            <img style={{width: '320px', height: '200px'}} src={flags?.png} alt="" />
+            <img style={{width: '320px', height: '160px', border: '2px solid black', borderRadius: '20px', boxShadow: '5px 5px 5px rgba(0,0,0,0.3)'}} src={flags?.png} alt="" />
             <h3>Population: {population}</h3>
             <h3>Area: {area}</h3>
             <h3>Region: {region}</h3>
