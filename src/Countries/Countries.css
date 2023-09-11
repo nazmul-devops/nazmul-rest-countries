@@ -4,3 +4,9 @@
     gap: 5px;
     box-shadow: 5px;
 }
+
+.flagContainer img{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
